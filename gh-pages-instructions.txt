@@ -1,0 +1,7 @@
+{
+  "homepage": "https://<your-github-username>.github.io/flashcard-app",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
